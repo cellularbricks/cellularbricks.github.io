@@ -38,7 +38,7 @@ We conducted several large-scale experiments with more than 500 bricks in simula
 To test how the approach works in the real world, we transferred the NCA trained in simulation onto the physical bricks and built four distinct shapes with numbers of bricks ranging from 26 for a guitar, to 197 for a round table. 
 
 <p align="center">
-<video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/final_brick_overview.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
+<video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/classification_results.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
 </p>
 
 The cellular bricks reach consensus to which object class they think they belong to, successfully recognizing a plane, a guitar, a boat, and a table. The results show that the approach is remarkably robust, with a success rate of 100% for the four shapes we build (i.e. all the cubes reach consensus on which shape they are a part of). 
