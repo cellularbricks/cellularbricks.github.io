@@ -47,6 +47,8 @@ To test how the approach works in the real world, we transferred the NCA trained
 
 The cellular bricks reach consensus to which object class they think they belong to, successfully recognizing a plane, a guitar, a boat, and a table. The results show that the approach is remarkably robust, with a success rate of 100% for the four shapes we build (i.e. all the cubes reach consensus on which shape they are a part of). 
 
+<img width="100%"  alt="Screenshot 2025-09-25 at 20 44 47" src="https://github.com/user-attachments/assets/f15cc2d1-246d-437c-b4cc-ee54b0eb8a6c" />
+
 ## Robustness to faulty cells
 
 Biological systems are remarkably robust to damage, noise, and faulty components. From cellular networks in living organisms to entire anatomical structures, biological processes often continue functioning even when faced with partial failure or incomplete information. This resilience stems from the local, distributed nature of biological communication and decision-making, where cells collectively assess and respond to their environment through redundant, fault-tolerant interactions.
