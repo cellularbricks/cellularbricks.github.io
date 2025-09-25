@@ -37,11 +37,13 @@ To test how the approach works in the real world, we transferred the NCA trained
 <img width="100%" alt="brick_classification" src="https://github.com/user-attachments/assets/1f9b9344-b284-4c80-9b61-ca7d09682aa5" />
 </p>
 
-This timeseries show how the cellular bricks reach consensus to which object class they think they belong to, successfully recognizing a plane, a guitar, a boat, and a table. The results show that the approach is remarkably robust, with a success rate of 100% for the four shapes we build (i.e. all the cubes reach consensus on which shape they are a part of). Out of distribution generalization is shown in (E)--(H), which are shapes that the algorithm has never seen during training. The algorithm is able to classify all of these correctly, except the smaller table (H) which was misclassified as a chair.  
+The cellular bricks reach consensus to which object class they think they belong to, successfully recognizing a plane, a guitar, a boat, and a table. The results show that the approach is remarkably robust, with a success rate of 100% for the four shapes we build (i.e. all the cubes reach consensus on which shape they are a part of). 
 
-A video of the process is shown below.
 
-https://github.com/user-attachments/assets/56603620-5dc7-4aaa-bb12-9f238d898f26
+<video src="https://private-user-images.githubusercontent.com/3155677/493783535-c81a957a-a1cb-4048-a365-5a50b18b8f4a.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
+
+
+
 
 ## Robustness to faulty cells
 
@@ -60,6 +62,8 @@ The results show that most shapes maintain high recognition performance at 5\% f
 In biological systems, collective structures and functions are typically robust to variations in morphology, size, and proportion. Organs may vary in shape across individuals, limbs may regenerate at different scales, and yet the overall anatomical identity and function are preserved. This capacity for generalization—recognizing a category of form rather than a precise template — is fundamental to biological development and repair. Inspired by this principle, we evaluated whether our system could similarly generalize beyond the specific examples it encountered during training.
 
 To assess this, we designed a series of test shapes that introduce novel variations within known shape classes. First, we modified a table instance from the training set by removing parts from two sides and altering the design to include five legs placed at random positions and shortened in length. This tests the model’s ability to handle asymmetry and irregular support structures. Next, we modified a known boat configuration by shifting the central bridge structure from the middle to an off-center position, testing sensitivity to internal rearrangement. Finally, we evaluated the system on scaled-down versions of both the plane and table configurations, challenging the NCA’s capacity to infer shape class under global size reduction.
+
+[Out of distribution generalization is shown in (E)--(H), which are shapes that the algorithm has never seen during training. The algorithm is able to classify all of these correctly, except the smaller table (H) which was misclassified as a chair.  A video of the process is shown below.]
 
 https://github.com/user-attachments/assets/4b67724e-c606-4a2f-ad5b-fe4fbf9126e7
 
@@ -113,6 +117,12 @@ The network tolerates realistic imperfections. For some shapes, classification c
 ## Limitations
 
 Incorporating actuation, e.g. magnetically docked milli-scale blocks or lattice-based walkers, will be required for active self-repair in the future. Additionally, miniaturisation of the electronics and refinement of the mechanical connectors would permit denser collectives and more organic geometries, bringing the platform closer to the cellular scale of its biological inspiration. Closed-loop growth, whereby bricks autonomously recruit additional bricks from a pool, could transform the current recognition capability into full morphological regulation. 
+
+
+https://github.com/user-attachments/assets/56603620-5dc7-4aaa-bb12-9f238d898f26
+
+https://github.com/user-attachments/assets/c81a957a-a1cb-4048-a365-5a50b18b8f4a
+
 
 <video autoplay controls loop muted src="https://private-user-images.githubusercontent.com/3155677/493726713-2b659800-59b9-4bc9-9191-36bdc25ce7eb.mp4"></video><figcaption><sub>A self-assembling structure made out of many modular robots. Scene from the movie Big Hero 6.</sub></figcaption></figure>
 
