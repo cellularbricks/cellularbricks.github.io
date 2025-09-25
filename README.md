@@ -16,7 +16,7 @@ Artificial systems composed of many physically distributed modules that can auto
 
 <p align="center">
 <img width="80%"  alt="brick_overview" src="https://github.com/user-attachments/assets/956c07df-0bbc-4588-a468-bfdc2f1603bc" />
- <figcaption><tiny><Strong>Neural cellular automata for shape classification.</Strong> (A) Cellular brick module. (B) Examples of cellular bricks assembled into four different shapes. (C) Cells takes as input local information from their connecting neighboring cells and their hidden channels. Information is aggregated locally, enabling the object to recognize its particular shape over multiple iterations. (D) The local update rules are encoded with a neural cellular automata, a deep neural network.</tiny> </figcaption>
+ <figcaption><sub><Strong>Neural cellular automata for shape classification.</Strong> (A) Cellular brick module. (B) Examples of cellular bricks assembled into four different shapes. (C) Cells takes as input local information from their connecting neighboring cells and their hidden channels. Information is aggregated locally, enabling the object to recognize its particular shape over multiple iterations. (D) The local update rules are encoded with a neural cellular automata, a deep neural network.</sub> </figcaption>
 </p>
 
 
