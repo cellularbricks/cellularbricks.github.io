@@ -37,7 +37,9 @@ We evaluated our approach on simple cellular bricks, which are composed of print
 We conducted several large-scale experiments with more than 500 bricks in simulation and almost 200 physical bricks. In simulation, the approach is able to reach an overall accuracy score of 98.97%. 
 To test how the approach works in the real world, we transferred the NCA trained in simulation onto the physical bricks and built four distinct shapes with numbers of bricks ranging from 26 for a guitar, to 197 for a round table. 
 
+<p align="center">
 <video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/final_brick_overview.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
+</p>
 
 The cellular bricks reach consensus to which object class they think they belong to, successfully recognizing a plane, a guitar, a boat, and a table. The results show that the approach is remarkably robust, with a success rate of 100% for the four shapes we build (i.e. all the cubes reach consensus on which shape they are a part of). 
 
@@ -47,7 +49,9 @@ Biological systems are remarkably robust to damage, noise, and faulty components
 
 Inspired by this property, we conducted a series of experiments to evaluate the fault tolerance of our system under simulated communication failures. Specifically, we investigated how disabling a subset of cellular bricks—preventing them from sending or receiving messages—affects shape recognition accuracy and convergence speed. 
 
+<p align="center">
 <img width="80%" alt="faulty_cell_robustness" src="https://github.com/user-attachments/assets/5f609e47-9496-4e21-b9f6-94e9f4df45ba" />
+</p>
 
 The results show that most shapes maintain high recognition performance at 5\% failure rates, suggesting that the system exhibits a level of redundancy that contributes to its robustness. Notably, some shapes, such as the plane and boat, showed only minimal degradation in classification accuracy even at 15\% failure rates, demonstrating strong collective robustness. However, shapes with narrow structural bottlenecks, like the guitar, were more sensitive to localized faults. In these cases, failure of a single module in the neck region could sever connectivity between subparts of the shape, leading to misclassification or delayed convergence. These findings support the hypothesis that local, learned communication rules—like those in multicellular organisms—can lead to globally coherent and robust behavior in modular cellular systems, even under imperfect conditions.
 
@@ -72,7 +76,9 @@ Overall, these experiments underscore the potential of local, learned communicat
 
 Collective systems can come up with efficient strategies to reach their goal. In biological organisms, this is exemplified by how cells coordinate during development to form complex structures without central control. Cells make local decisions based on their environment, often guided by morphogens—diffusible molecules that form gradients across developing tissues. These gradients provide positional information, enabling cells to infer their location within the organism and adopt appropriate identities, such as becoming part of a limb or an organ. This decentralized yet coordinated decision-making process inspired our investigation into the communication strategies developed by NCAs to recognize and differentiate shapes. Specifically, we drew inspiration from the role of morphogens in biology and examined the activation patterns of the NCA’s hidden channels.
 
-https://github.com/user-attachments/assets/cce093a7-63bc-4f4a-a38b-ab28b94951fd
+<p align="center">
+<video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/final_brick_overview.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
+</p>
 
 Below is a sequence of visualizations of different hidden channels together with the classification output of the NCA for three different shapes (two tables and one chair) over time. When looking at the classification output, we can see that the cells early on reach agreement for the table designs (A, B). Left-right morphogen-like (channel 7) and radial (channel 21) patternings are established early, resembling the emergence of developmental axes in embryos.
 <img width="961" height="857" alt="Screenshot 2025-09-25 at 13 47 28" src="https://github.com/user-attachments/assets/19d2cc68-4fa8-403a-bffa-de5f45cab59d" />
