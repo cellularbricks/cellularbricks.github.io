@@ -1,6 +1,10 @@
 # Smart Cellular Bricks for Decentralized Shape Classification and Damage Recovery
 
-Rodrigo Moreno, Andres Faina, Shyam Sudhakaran, Kathryn Walker, and Sebastian Risi
+Rodrigo Moreno<sup>1</sup>, Andres Faina<sup>1</sup>, Shyam Sudhakaran<sup>1, 3</sup>, Kathryn Walker<sup>1</sup>, and Sebastian Risi<sup>1, 2</sup>
+
+<sup>1</sup>IT University of Copenhagen
+<sup>2</sup>Sakana AI
+<sup>3</sup>Autodesk
 
 # Summary
 
