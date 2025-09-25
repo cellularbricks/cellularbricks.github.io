@@ -47,9 +47,7 @@ Biological systems are remarkably robust to damage, noise, and faulty components
 
 Inspired by this property, we conducted a series of experiments to evaluate the fault tolerance of our system under simulated communication failures. Specifically, we investigated how disabling a subset of cellular bricks—preventing them from sending or receiving messages—affects shape recognition accuracy and convergence speed. 
 
-
-https://github.com/user-attachments/assets/62c12c78-b436-4163-976f-bf8cfd4d7984
-
+<img width="80%" alt="faulty_cell_robustness" src="https://github.com/user-attachments/assets/5f609e47-9496-4e21-b9f6-94e9f4df45ba" />
 
 The results show that most shapes maintain high recognition performance at 5\% failure rates, suggesting that the system exhibits a level of redundancy that contributes to its robustness. Notably, some shapes, such as the plane and boat, showed only minimal degradation in classification accuracy even at 15\% failure rates, demonstrating strong collective robustness. However, shapes with narrow structural bottlenecks, like the guitar, were more sensitive to localized faults. In these cases, failure of a single module in the neck region could sever connectivity between subparts of the shape, leading to misclassification or delayed convergence. These findings support the hypothesis that local, learned communication rules—like those in multicellular organisms—can lead to globally coherent and robust behavior in modular cellular systems, even under imperfect conditions.
 
