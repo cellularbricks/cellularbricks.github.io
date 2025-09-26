@@ -23,7 +23,7 @@ Many biological systems exhibit a remarkable capacity to accurately determine th
 Artificial systems composed of many physically distributed modules that can autonomously infer their structural class — without centralized control — would represent a significant step toward more adaptable, intelligent artificial  collectives. Such systems could enable powerful applications in smart materials and reconfigurable robotics, where global knowledge must emerge from local sensing and communication.  Motivated by the scalability and resilience of the collective intelligence of biological systems, we introduce a fully decentralized system in which hundreds of physically embodied "cellular" bricks  collectively classify their global shape and detect local damage. 
 
 <p align="center">
-<img width="80%"  alt="brick_overview" src="https://github.com/user-attachments/assets/956c07df-0bbc-4588-a468-bfdc2f1603bc" />
+<img width="90%"  alt="brick_overview" src="https://github.com/user-attachments/assets/956c07df-0bbc-4588-a468-bfdc2f1603bc" />
  <figcaption><sub><Strong>Neural cellular automata for shape classification.</Strong> (A) Cellular brick module. (B) Examples of cellular bricks assembled into four different shapes. (C) Cells takes as input local information from their connecting neighboring cells and their hidden channels. Information is aggregated locally, enabling the object to recognize its particular shape over multiple iterations. (D) The local update rules are encoded with a neural cellular automata, a deep neural network.</sub> </figcaption>
 </p>
 
