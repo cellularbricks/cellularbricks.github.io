@@ -124,9 +124,11 @@ The network tolerates realistic imperfections. For some shapes, classification c
 
 Incorporating actuation, e.g. magnetically docked milli-scale blocks or lattice-based walkers, will be required for active self-repair in the future. Additionally, miniaturisation of the electronics and refinement of the mechanical connectors would permit denser collectives and more organic geometries, bringing the platform closer to the cellular scale of its biological inspiration. Closed-loop growth, whereby bricks autonomously recruit additional bricks from a pool, could transform the current recognition capability into full morphological regulation. 
 
-
 <p align="center">
 <video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/big_hero.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
+
+ <figcaption><sub>A self-assembling structure made out of many modular robots. Scene from the movie Big Hero 6.
+</sub> </figcaption>
 </p>
 
 
