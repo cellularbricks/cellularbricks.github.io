@@ -70,10 +70,18 @@ To assess this, we designed a series of test shapes that introduce novel variati
 [Out of distribution generalization is shown in (E)--(H), which are shapes that the algorithm has never seen during training. The algorithm is able to classify all of these correctly, except the smaller table (H) which was misclassified as a chair.  A video of the process is shown below.]
 
 <p align="center">
-<video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/ood_table.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
+<video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/ood_table.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 40%;"></video>
 </p>
 
-
+<div style="display: flex; align-items: center; gap: 1rem;">
+  <p style="flex: 1;">
+    Here is some text that will appear next to the video. You can add as much as you want, and it will align nicely.
+  </p>
+  <video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/ood_table.mp4" 
+         type="video/mp4" autoplay muted playsinline loop 
+         style="width: 40%; border-radius: 8px;">
+  </video>
+</div>
 
 The results demonstrate that the system can successfully classify several of these novel configurations, confirming a degree of invariance to geometric variation and scale. For instance, the altered table with five legs was still correctly classified as a table, and the shifted boat bridge did not significantly impair recognition. These behaviors suggest that the distributed representations learned by the NCA capture abstract structural features rather than overfitting to specific examples—mirroring biological systems' capacity to recognize morphologies despite developmental variability.
 
