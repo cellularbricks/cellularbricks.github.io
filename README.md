@@ -98,7 +98,9 @@ Collective systems can come up with efficient strategies to reach their goal. In
 </p>
 
 Below is a sequence of visualizations of different hidden channels together with the classification output of the NCA for three different shapes (two tables and one chair) over time. When looking at the classification output, we can see that the cells early on reach agreement for the table designs (A, B). Left-right morphogen-like (channel 7) and radial (channel 21) patternings are established early, resembling the emergence of developmental axes in embryos.
-<img width="961" height="857" alt="Screenshot 2025-09-25 at 13 47 28" src="https://github.com/user-attachments/assets/19d2cc68-4fa8-403a-bffa-de5f45cab59d" />
+
+<img width="100%" alt="chair_hidden_channel" src="https://github.com/user-attachments/assets/f33e1f8f-b26e-4029-86ed-56163387fa92" />
+
 
 How is the approach able to tell apart tables from chairs? Looking at the morphogen development for a chair object can give some insights (C). Similar to the tables, many cells in the chair are initially classified as a plane (green). However, unlike in the table case, an anterior-posterior patterning is established (channel 21), akin to the biological head-to-tail axis. This pattern is mirrored in the classification of the cells, which initially identify the backrest and seat as separate table-like components. Over time, the signal propagates from posterior to anterior, guiding the cells to reach consensus that they form a chair. These observations suggest that the default classification for tables and chairs is initially “table,” but morphogen-like signals originating from the backrest region of chairs gradually induce a reclassification in neighboring cells, leading to a coherent identification of the object as a chair.
 
