@@ -23,7 +23,7 @@ Many biological systems exhibit a remarkable capacity to accurately determine th
 Artificial systems composed of many physically distributed modules that can autonomously infer their structural class — without centralized control — would represent a significant step toward more adaptable, intelligent artificial  collectives. Such systems could enable powerful applications in smart materials and reconfigurable robotics, where global knowledge must emerge from local sensing and communication.  Motivated by the scalability and resilience of the collective intelligence of biological systems, we introduce a fully decentralized system in which hundreds of physically embodied "cellular" bricks  collectively classify their global shape and detect local damage. 
 
 <p align="center">
-<img width="90%"  alt="brick_overview" src="https://github.com/user-attachments/assets/956c07df-0bbc-4588-a468-bfdc2f1603bc" />
+<img width="90%"  alt="NCA for shape classification." src="https://github.com/user-attachments/assets/956c07df-0bbc-4588-a468-bfdc2f1603bc" />
  <figcaption><sub><Strong>Neural cellular automata for shape classification.</Strong> (A) Cellular brick module. (B) Examples of cellular bricks assembled into four different shapes. (C) Cells takes as input local information from their connecting neighboring cells and their hidden channels. Information is aggregated locally, enabling the object to recognize its particular shape over multiple iterations. (D) The local update rules are encoded with a neural cellular automata, a deep neural network.</sub> </figcaption>
 </p>
 
@@ -50,7 +50,7 @@ Biological systems are remarkably robust to damage, noise, and faulty components
 Inspired by this property, we conducted a series of experiments to evaluate the fault tolerance of our system under simulated communication failures. Specifically, we investigated how disabling a subset of cellular bricks—preventing them from sending or receiving messages—affects shape recognition accuracy and convergence speed. 
 
 <p align="center">
-<img width="80%" alt="faulty_cell_robustness" src="https://github.com/user-attachments/assets/5f609e47-9496-4e21-b9f6-94e9f4df45ba" />
+<img width="80%" alt="Robustness to faulty cells" src="https://github.com/user-attachments/assets/5f609e47-9496-4e21-b9f6-94e9f4df45ba" />
  <figcaption><sub>We show examples of five guitars (left) and five planes (right) with different disabled cells (marked in red). Because of their design, the plane
 is much more robust than the guitar, in which a single failure along the guitar neck can disrupt the classification process.
 </sub> </figcaption>
@@ -89,7 +89,7 @@ Collective systems can come up with efficient strategies to reach their goal. In
 
 How is the approach able to tell apart tables from chairs? Looking at the morphogen development for a chair object can give some insights. Similar to the tables, many cells in the chair are initially classified as a plane (green). However, unlike in the table case, an anterior-posterior patterning is established (channel 21), akin to the biological head-to-tail axis. This pattern is mirrored in the classification of the cells, which initially identify the backrest and seat as separate table-like components. Over time, the signal propagates from posterior to anterior, guiding the cells to reach consensus that they form a chair. These observations suggest that the default classification for tables and chairs is initially “table,” but morphogen-like signals originating from the backrest region of chairs gradually induce a reclassification in neighboring cells, leading to a coherent identification of the object as a chair.
 
-<img width="100%" alt="chair_hidden_channel" src="https://github.com/user-attachments/assets/f33e1f8f-b26e-4029-86ed-56163387fa92" />
+<img width="100%" alt="Hidden channel activations" src="https://github.com/user-attachments/assets/f33e1f8f-b26e-4029-86ed-56163387fa92" />
 
 ## Damage detection and recovery 
 
