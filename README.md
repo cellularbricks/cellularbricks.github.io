@@ -131,6 +131,7 @@ Incorporating actuation, e.g. magnetically docked milli-scale blocks or lattice-
 </sub> </figcaption>
 </p>
 
+Want to learn more about self-organizing AI and collective systems? Check out this [blog post](https://sebastianrisi.com/self_assembling_ai/) and this [survery article](https://arxiv.org/abs/2111.14377) of recent developments in collective intelligence for deep learning. 
 
 
 
