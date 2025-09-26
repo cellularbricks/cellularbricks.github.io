@@ -1,7 +1,7 @@
 # Smart Cellular Bricks for Decentralized Shape Classification and Damage Recovery
 
 <p align="center">
-<video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/banner_video.mov" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
+<video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/banner_video.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
 </p>
 
 Rodrigo Moreno<sup>1</sup>, Andres Faina<sup>1</sup>, Shyam Sudhakaran<sup>1, 3</sup>, Kathryn Walker<sup>1</sup>, and Sebastian Risi<sup>1, 2</sup>
@@ -69,7 +69,10 @@ To assess this, we designed a series of test shapes that introduce novel variati
 
 [Out of distribution generalization is shown in (E)--(H), which are shapes that the algorithm has never seen during training. The algorithm is able to classify all of these correctly, except the smaller table (H) which was misclassified as a chair.  A video of the process is shown below.]
 
-https://github.com/user-attachments/assets/4b67724e-c606-4a2f-ad5b-fe4fbf9126e7
+<p align="center">
+<video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/ood_table.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
+</p>
+
 
 
 The results demonstrate that the system can successfully classify several of these novel configurations, confirming a degree of invariance to geometric variation and scale. For instance, the altered table with five legs was still correctly classified as a table, and the shifted boat bridge did not significantly impair recognition. These behaviors suggest that the distributed representations learned by the NCA capture abstract structural features rather than overfitting to specific examples—mirroring biological systems' capacity to recognize morphologies despite developmental variability.
@@ -129,13 +132,6 @@ Incorporating actuation, e.g. magnetically docked milli-scale blocks or lattice-
 <video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/big_hero.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
 </p>
 
-
-https://github.com/user-attachments/assets/56603620-5dc7-4aaa-bb12-9f238d898f26
-
-https://github.com/user-attachments/assets/c81a957a-a1cb-4048-a365-5a50b18b8f4a
-
-
-<video autoplay controls loop muted src="https://private-user-images.githubusercontent.com/3155677/493726713-2b659800-59b9-4bc9-9191-36bdc25ce7eb.mp4"></video><figcaption><sub>A self-assembling structure made out of many modular robots. Scene from the movie Big Hero 6.</sub></figcaption></figure>
 
 
 
