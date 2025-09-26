@@ -69,9 +69,6 @@ To assess this, we designed a series of test shapes that introduce novel variati
 
 [Out of distribution generalization is shown in (E)--(H), which are shapes that the algorithm has never seen during training. The algorithm is able to classify all of these correctly, except the smaller table (H) which was misclassified as a chair.  A video of the process is shown below.]
 
-<p align="center">
-<video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/ood_table.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 40%;"></video>
-</p>
 
 <div style="display: flex; align-items: center; gap: 1rem;">
   <p style="flex: 1;">
@@ -118,6 +115,11 @@ Can we exploit this ability to also recover from damage, instead of merely predi
 To test the ability of our system to guide damage recovery, we started from a small cluster of cells, and added cells in the direction determined by the existing cells; this process was repeated  until no more damaged was  detected. Finally, we determined  the recovery accuracy as the difference between the final regrown shape and the original target shape. 
 ![chair_rebuild](https://github.com/user-attachments/assets/ca4eb13c-9b43-4c97-b63b-27fcdef2ea08)
 ![table_rebuild_128](https://github.com/user-attachments/assets/7b98e8e7-70e8-4dcb-ae7e-f78f14afcd05)
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/ca4eb13c-9b43-4c97-b63b-27fcdef2ea08" width="50%" />
+  <img src="https://github.com/user-attachments/assets/7b98e8e7-70e8-4dcb-ae7e-f78f14afcd05" width="50%" />
+</p>
 
 Surprisingly, without ever being trained with only a few cells, the model was able to detect damage and recover almost all shapes across all object classes with a high accuracy.  We  compared the approach across different cell hidden dimension sizes and found that models with larger hidden states performed  significantly better.  These results are likely explained by the fact that the larger hidden states allow the models to capture more information across development. 
 
