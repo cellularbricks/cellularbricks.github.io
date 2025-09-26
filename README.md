@@ -51,7 +51,7 @@ Inspired by this property, we conducted a series of experiments to evaluate the 
 
 <p align="center">
 <img width="80%" alt="faulty_cell_robustness" src="https://github.com/user-attachments/assets/5f609e47-9496-4e21-b9f6-94e9f4df45ba" />
- <figcaption><sub><Strong>We show examples of five guitars (C) and five planes (D) with different disabled cells (marked in red). Because of their design, the plane
+ <figcaption><sub>We show examples of five guitars (left) and five planes (right) with different disabled cells (marked in red). Because of their design, the plane
 is much more robust than the guitar, in which a single failure along the guitar neck can disrupt the classification process.
 </sub> </figcaption>
 </p>
