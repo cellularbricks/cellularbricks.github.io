@@ -66,15 +66,14 @@ To assess this, we designed a series of test shapes that introduce novel variati
 
 
 <div style="display: flex; align-items: center; gap: 1rem;">
-  <p style="flex: 1;">
-    The results demonstrate that the system can successfully classify several of these novel configurations, confirming a degree of invariance to geometric variation and scale. For instance, the altered table with five legs was still correctly classified as a table, and the shifted boat bridge did not significantly impair recognition. These behaviors suggest that the distributed representations learned by the NCA capture abstract structural features rather than overfitting to specific examples—mirroring biological systems' capacity to recognize morphologies despite developmental variability.
-  </p>
   <video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/ood_table.mp4" 
          type="video/mp4" autoplay muted playsinline loop 
          style="width: 30%; border-radius: 15px;">
   </video>
+  <p style="flex: 1;">
+    The results demonstrate that the system can successfully classify several of these novel configurations, confirming a degree of invariance to geometric variation and scale. For instance, the altered table with five legs was still correctly classified as a table, and the shifted boat bridge did not significantly impair recognition. These behaviors suggest that the distributed representations learned by the NCA capture abstract structural features rather than overfitting to specific examples—mirroring biological systems' capacity to recognize morphologies despite developmental variability.
+  </p>
 </div>
-
 
 However, the system is not immune to failure. The scaled-down table, for example, was misclassified as a chair. This may reflect a limitation in spatial resolution or context available at the smaller scale, where reduced module count compresses structural cues. Such misclassifications highlight opportunities for improving the system’s scale invariance and further aligning its behavior with biological robustness.
 
