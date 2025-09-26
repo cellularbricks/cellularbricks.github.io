@@ -71,7 +71,7 @@ To assess this, we designed a series of test shapes that introduce novel variati
   </p>
   <video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/ood_table.mp4" 
          type="video/mp4" autoplay muted playsinline loop 
-         style="width: 30%; border-radius: 8px;">
+         style="width: 30%; border-radius: 15px;">
   </video>
 </div>
 
