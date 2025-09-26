@@ -117,8 +117,8 @@ To test the ability of our system to guide damage recovery, we started from a sm
 ![table_rebuild_128](https://github.com/user-attachments/assets/7b98e8e7-70e8-4dcb-ae7e-f78f14afcd05)
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/ca4eb13c-9b43-4c97-b63b-27fcdef2ea08" width="50%" />
-  <img src="https://github.com/user-attachments/assets/7b98e8e7-70e8-4dcb-ae7e-f78f14afcd05" width="50%" />
+  <img src="https://github.com/user-attachments/assets/ca4eb13c-9b43-4c97-b63b-27fcdef2ea08" width="30%" />
+  <img src="https://github.com/user-attachments/assets/7b98e8e7-70e8-4dcb-ae7e-f78f14afcd05" width="30%" />
 </p>
 
 Surprisingly, without ever being trained with only a few cells, the model was able to detect damage and recover almost all shapes across all object classes with a high accuracy.  We  compared the approach across different cell hidden dimension sizes and found that models with larger hidden states performed  significantly better.  These results are likely explained by the fact that the larger hidden states allow the models to capture more information across development. 
