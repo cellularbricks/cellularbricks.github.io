@@ -1,6 +1,8 @@
 # Smart Cellular Bricks for Decentralized Shape Classification and Damage Recovery
 <p align="center">
 <video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/cellular_brick_banner_wide.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
+ <figcaption><sub>Collections of hundreds of simple 3D cellular bricks, each running the same local Neural Cellular Automata rules without global knowledge, collaboratively infer overall shape class. 
+</sub> </figcaption>
 </p>
 
 Rodrigo Moreno<sup>1</sup>, Andres Faina<sup>1</sup>, Shyam Sudhakaran<sup>1,3</sup>, Kathryn Walker<sup>1</sup>, and Sebastian Risi<sup>1,2</sup>
@@ -83,6 +85,8 @@ Collective systems can come up with efficient strategies to reach their goal. In
 
 <p align="center">
 <video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/hidden_channel_fast.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
+  <figcaption><sub>The hidden channels learned morphogen-like activation patterns, such as left-right and radial gradients, enabling decentralized shape recognition and differentiation.
+</sub> </figcaption>
 </p>
 
 How is the approach able to tell apart tables from chairs? Looking at the morphogen development for a chair object can give some insights. Similar to the tables, many cells in the chair are initially classified as a plane (green). However, unlike in the table case, an anterior-posterior patterning is established (channel 21), akin to the biological head-to-tail axis. This pattern is mirrored in the classification of the cells, which initially identify the backrest and seat as separate table-like components. Over time, the signal propagates from posterior to anterior, guiding the cells to reach consensus that they form a chair. These observations suggest that the default classification for tables and chairs is initially “table,” but morphogen-like signals originating from the backrest region of chairs gradually induce a reclassification in neighboring cells, leading to a coherent identification of the object as a chair.
