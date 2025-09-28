@@ -3,6 +3,18 @@
 <video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/cellular_brick_banner_wide.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
 </p>
 
+<p style="text-align:center;">
+  <video 
+    src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/cellular_brick_banner_wide.mp4" 
+    type="video/mp4" 
+    autoplay 
+    muted 
+    playsinline 
+    loop 
+    style="margin: 0; width: 100%; border: none; outline: none; display: block;">
+  </video>
+</p>
+
 Rodrigo Moreno<sup>1</sup>, Andres Faina<sup>1</sup>, Shyam Sudhakaran<sup>1,3</sup>, Kathryn Walker<sup>1</sup>, and Sebastian Risi<sup>1,2</sup>
 
 <sup>1</sup>IT University of Copenhagen
@@ -54,7 +66,6 @@ Inspired by this property, we conducted a series of experiments to evaluate the 
 is much more robust than the guitar, in which a single failure along the guitar neck can disrupt the classification process.
 </sub> </figcaption>
 </p>
-
 The results show that most shapes maintain high recognition performance at 5% failure rates, suggesting that the system exhibits a level of redundancy that contributes to its robustness. Notably, some shapes, such as the plane and boat, showed only minimal degradation in classification accuracy even at 15% failure rates, demonstrating strong collective robustness. However, shapes with narrow structural bottlenecks, like the guitar, were more sensitive to localized faults. In these cases, failure of a single module in the neck region could sever connectivity between subparts of the shape, leading to misclassification or delayed convergence. These findings support the hypothesis that local, learned communication rules—like those in multicellular organisms—can lead to globally coherent and robust behavior in modular cellular systems, even under imperfect conditions.
 
 ## Robustness to out-of-distribution shape variations
