@@ -19,7 +19,7 @@ Rodrigo Moreno<sup>1</sup>, Andres Faina<sup>1</sup>, Shyam Sudhakaran<sup>1,3</
     muted
     playsinline
     loop
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+    style="position: absolute; top: 0; left: 0; width: 90%; height: 90%; object-fit: cover; z-index: -1;">
   </video>
 
   <!-- Overlay text -->
