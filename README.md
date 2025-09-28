@@ -6,7 +6,7 @@ Rodrigo Moreno<sup>1</sup>, Andres Faina<sup>1</sup>, Shyam Sudhakaran<sup>1,3</
 <sup>3</sup>Autodesk
 <p align="center">
 <video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/cellular_brick_banner_wide.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
- <figcaption><sub>Collections of simple 3D cellular bricks, each running the same local Neural Cellular Automata rules without global knowledge, collaboratively infer overall shape class. 
+ <figcaption><sub>Collections of hundreds of physical 3D cellular bricks, simple modular hardware units running identical local Neural Cellular Automata rules without global knowledge, collaboratively infer overall shape class. 
 </sub> </figcaption>
 </p>
 
