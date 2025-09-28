@@ -1,3 +1,4 @@
+# Smart Cellular Bricks for Decentralized Shape Classification and Damage Recovery
 <p align="center">
 <video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/cellular_brick_banner.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
 </p>
@@ -8,11 +9,32 @@ Rodrigo Moreno<sup>1</sup>, Andres Faina<sup>1</sup>, Shyam Sudhakaran<sup>1,3</
 <sup>2</sup>Sakana AI
 <sup>3</sup>Autodesk
 
+
+<div style="position: relative; width: 100%; height: 400px; overflow: hidden;">
+  <!-- Video background -->
+  <video 
+    src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/cellular_brick_banner.mp4"
+    type="video/mp4"
+    autoplay
+    muted
+    playsinline
+    loop
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+  </video>
+
+  <!-- Overlay text -->
+  <div style="position: relative; display: flex; justify-content: center; align-items: center; height: 100%;">
+    <h1 style="color: white; font-size: 2em; text-align: center; text-shadow: 2px 2px 6px rgba(0,0,0,0.7);">
+      Smart Cellular Bricks for Decentralized Shape Classification and Damage Recovery
+    </h1>
+  </div>
+</div>
+
 # Summary
 
 Biological systems possess remarkable capabilities for self-recognition and morphological regeneration, often relying solely on local interactions. Inspired by these decentralized processes, we present a novel system of physical 3D bricks—simple cubic units equipped with local communication, processing, and sensing—that are capable of inferring their global shape class and detecting structural damage. Leveraging Neural Cellular Automata (NCA), a learned, fully-distributed algorithm, our system enables each module to independently execute the same neural network without access to any global state or positioning information. We demonstrate the ability of collections of hundreds of these cellular bricks to accurately classify a variety of 3D shapes through purely local interactions. The approach shows strong robustness to out-of-distribution shape variations and high tolerance to communication faults and failed modules. In addition to shape inference, the same decentralized framework is extended to detect missing or damaged components, allowing the collective to localize structural disruptions and to guide a recovery process. This work provides a physical realization of large-scale, decentralized self-recognition and damage detection, advancing the potential of robust, adaptive, and bio-inspired modular systems.
 
-For further details, please read our [technical report](https://arxiv.org/abs/2509.18659). Code will be made available now.
+For further details, please read our [technical report](https://arxiv.org/abs/2509.18659). Code will be made available soon.
 
 # Introduction
 
