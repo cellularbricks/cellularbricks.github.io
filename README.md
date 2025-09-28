@@ -1,6 +1,6 @@
 # Smart Cellular Bricks for Decentralized Shape Classification and Damage Recovery
 <p align="center">
-<video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/cellular_brick_banner.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
+<video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/cellular_brick_baner_wide.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
 </p>
 
 Rodrigo Moreno<sup>1</sup>, Andres Faina<sup>1</sup>, Shyam Sudhakaran<sup>1,3</sup>, Kathryn Walker<sup>1</sup>, and Sebastian Risi<sup>1,2</sup>
@@ -8,27 +8,6 @@ Rodrigo Moreno<sup>1</sup>, Andres Faina<sup>1</sup>, Shyam Sudhakaran<sup>1,3</
 <sup>1</sup>IT University of Copenhagen
 <sup>2</sup>Sakana AI
 <sup>3</sup>Autodesk
-
-
-<div style="position: relative; width: 100%; height: 400px; overflow: hidden;">
-  <!-- Video background -->
-  <video 
-    src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/cellular_brick_banner.mp4"
-    type="video/mp4"
-    autoplay
-    muted
-    playsinline
-    loop
-    style="position: absolute; top: 0; left: 0; width: 90%; height: 90%; object-fit: cover; z-index: -1;">
-  </video>
-
-  <!-- Overlay text -->
-  <div style="position: relative; display: flex; justify-content: center; align-items: center; height: 100%;">
-    <h1 style="color: white; font-size: 2em; text-align: center; text-shadow: 2px 2px 6px rgba(0,0,0,0.7);">
-      Smart Cellular Bricks for Decentralized Shape Classification and Damage Recovery
-    </h1>
-  </div>
-</div>
 
 # Summary
 
