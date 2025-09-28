@@ -1,15 +1,14 @@
 # Smart Cellular Bricks for Decentralized Shape Classification and Damage Recovery
-<p align="center">
-<video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/cellular_brick_banner_wide.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
- <figcaption><sub>Collections of hundreds of simple 3D cellular bricks, each running the same local Neural Cellular Automata rules without global knowledge, collaboratively infer overall shape class. 
-</sub> </figcaption>
-</p>
-
 Rodrigo Moreno<sup>1</sup>, Andres Faina<sup>1</sup>, Shyam Sudhakaran<sup>1,3</sup>, Kathryn Walker<sup>1</sup>, and Sebastian Risi<sup>1,2</sup>
 
 <sup>1</sup>IT University of Copenhagen
 <sup>2</sup>Sakana AI
 <sup>3</sup>Autodesk
+<p align="center">
+<video src="https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/cellular_brick_banner_wide.mp4" type="video/mp4" autoplay="" muted="" playsinline="" loop="" style="margin: 0; width: 100%;"></video>
+ <figcaption><sub>Collections of simple 3D cellular bricks, each running the same local Neural Cellular Automata rules without global knowledge, collaboratively infer overall shape class. 
+</sub> </figcaption>
+</p>
 
 # Summary
 
