@@ -49,10 +49,10 @@ To test how the approach works in the real world, we transferred the NCA trained
 
 Biological systems are remarkably robust to damage, noise, and faulty components. From cellular networks in living organisms to entire anatomical structures, biological processes often continue functioning even when faced with partial failure or incomplete information. This resilience stems from the local, distributed nature of biological communication and decision-making, where cells collectively assess and respond to their environment through redundant, fault-tolerant interactions.
 
-Inspired by this property, we conducted a series of experiments to evaluate the fault tolerance of our system under simulated communication failures. Specifically, we investigated how disabling a subset of cellular bricks—preventing them from sending or receiving messages—affects shape recognition accuracy and convergence speed. 
+Inspired by this property, we conducted a series of experiments in hardware to evaluate the fault tolerance of our system under simulated communication failures. Specifically, we investigated how disabling a subset of cellular bricks—preventing them from sending or receiving messages—affects shape recognition accuracy and convergence speed. 
 
 <p align="center">
-<img width="80%" alt="Robustness to faulty cells" src="https://github.com/user-attachments/assets/5f609e47-9496-4e21-b9f6-94e9f4df45ba" /><figcaption><sub>We show examples of five guitars (left) and five planes (right) with different disabled cells (marked in red). Because of their design, the plane
+<img width="80%" alt="Robustness to faulty cells" src="https://github.com/user-attachments/assets/5f609e47-9496-4e21-b9f6-94e9f4df45ba" /><figcaption><sub>For two of the shapes assembled in hardware (guitar and plane), we disabled parcticular cells (marked in red) to test the models robustness. Because of their design, the plane
 is much more robust than the guitar, in which a single failure along the guitar neck can disrupt the classification process.
 </sub> </figcaption>
 </p>
@@ -72,7 +72,7 @@ To assess this, we designed a series of test shapes that introduce novel variati
          style="width: 30%; border-radius: 15px;">
   </video>
   <p style="flex: 1;">
-    The results demonstrate that the system can successfully classify several of these novel configurations, confirming a degree of invariance to geometric variation and scale. For instance, the altered table with five legs was still correctly classified as a table, and the shifted boat bridge did not significantly impair recognition. These behaviors suggest that the distributed representations learned by the NCA capture abstract structural features rather than overfitting to specific examples—mirroring biological systems' capacity to recognize morphologies despite developmental variability.
+    The results demonstrate that the system can successfully classify several of these novel configurations, confirming a degree of invariance to geometric variation and scale. For instance, the altered table with five legs (shown on the left) was still correctly classified as a table, and the shifted boat bridge did not significantly impair recognition. These behaviors suggest that the distributed representations learned by the NCA capture abstract structural features rather than overfitting to specific examples—mirroring biological systems' capacity to recognize morphologies despite developmental variability.
   </p>
 </div>
 
@@ -109,7 +109,6 @@ To test the ability of our system to guide damage recovery, we started from a sm
   <img src="https://github.com/user-attachments/assets/7b98e8e7-70e8-4dcb-ae7e-f78f14afcd05" width="30%" />
   <img src="https://github.com/user-attachments/assets/613b720d-00e6-4d1f-8fec-f19305dcb1d3" width="30%" />
 </div> 
-![plane_rebuilding](https://github.com/user-attachments/assets/613b720d-00e6-4d1f-8fec-f19305dcb1d3)
 
 Surprisingly, without ever being trained with only a few cells, the model was able to detect damage and recover almost all shapes across all object classes with a high accuracy.  We compared the approach across different cell hidden dimension sizes and found that models with larger hidden states performed  significantly better. These results are likely explained by the fact that the larger hidden states allow the models to capture more information across development. 
 
