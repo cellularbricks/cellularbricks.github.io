@@ -38,6 +38,23 @@ We validate our approach on real hardware,  demonstrating that shape classificat
 
 # Results
 
+<div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem;">
+  <p style="flex: 1; margin: 0;">
+    We evaluated our approach on simple cellular bricks, which are composed of printed circuit board (PCB)
+    cubes with electrical connectors on their six faces, a microcontroller module, an LED to display color
+    information (i.e. the class label outputted by the cell, shown to the right) and the electronic components
+    necessary to power these components. Multiple bricks can be stacked together to create different objects.
+    These cellular bricks can communicate and aggregate information purely locally through a custom protocol
+    (digital serial communication). Over multiple iterations they are tasked to globally converge on the correct
+    shape label.
+  </p>
+  <img
+    src="https://github.com/user-attachments/assets/af09b05b-355f-406f-beef-bd03898ccc10"
+    alt="color_mapping"
+    style="width: 10%; height: auto; object-fit: contain;"
+  />
+</div>
+
 We evaluated our approach on simple cellular bricks, which are composed of printed circuit board (PCB) cubes with electrical connectors on their six faces, a microcontroller module, an LED to display color information (i.e. the class label outputted by the cell) and the electronic components necessary to power these components.  Multiple bricks can be stacked together to create different objects. These cellular bricks can communicate and aggregate information purely locally through a custom protocol (digital serial communication). Over multiple iterations they are tasked to globally converge on the correct shape label. 
 
 We conducted several large-scale experiments with more than 500 bricks in simulation and almost 200 physical bricks. In simulation, the approach is able to reach an overall accuracy score of 98.97%. 
