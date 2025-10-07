@@ -14,7 +14,19 @@ Rodrigo Moreno<sup>1</sup>, Andres Faina<sup>1</sup>, Shyam Sudhakaran<sup>1,3</
 
 Biological systems possess remarkable capabilities for self-recognition and morphological regeneration, often relying solely on local interactions. Inspired by these decentralized processes, we present a novel system of physical 3D bricks—simple cubic units equipped with local communication and processing that are capable of inferring their global shape class and detecting structural damage. Leveraging Neural Cellular Automata (NCA), a learned, fully-distributed algorithm, our system enables each module to independently execute the same neural network without access to any global state or positioning information. We demonstrate the ability of collections of hundreds of these cellular bricks to accurately classify a variety of 3D shapes through purely local interactions. The approach shows strong robustness to out-of-distribution shape variations and high tolerance to communication faults and failed modules. In addition to shape inference, the same decentralized framework is extended to detect missing or damaged components, allowing the collective to localize structural disruptions and to guide a recovery process. 
 
+<div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: nowrap;">
+  <div style="flex: 1;">
+    <p>
 In the future, we imagine this technology could enable smart materials that allow houses to sense and report damage on their own, enabling safer, more resilient architecture. Similarly, LEGO-like systems could become interactive platforms that recognize their configurations and adapt gameplay in real time. More broadly, embedding distributed intelligence into matter itself points toward environments that are robust, adaptive, and regenerative—blurring the boundary between construction and computation.
+    </p>
+  </div>
+  <div style="flex: 0 0 auto; text-align: right;">
+    <img 
+      src="https://github.com/user-attachments/assets/b1429c8f-e838-4eab-8757-1018bf388ebd" 
+      alt="Cellular bricks diagram"
+      style="width: 200px; height: auto; border-radius: 8px;">
+  </div>
+</div>
 
 For further details, please read our [technical report](https://arxiv.org/abs/2509.18659). Code will be made available soon.
 
